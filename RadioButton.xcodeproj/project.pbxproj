@@ -14,6 +14,10 @@
 		A239B7661B29D91A00F1DD94 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A239B7651B29D91A00F1DD94 /* Images.xcassets */; };
 		A239B7691B29D91A00F1DD94 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A239B7671B29D91A00F1DD94 /* LaunchScreen.xib */; };
 		A239B7751B29D91A00F1DD94 /* RadioButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A239B7741B29D91A00F1DD94 /* RadioButtonTests.m */; };
+		A2521AC81B2B1C9300B5CB92 /* RadioButton-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = A2521AC61B2B1C9300B5CB92 /* RadioButton-Selected.png */; };
+		A2521AC91B2B1C9300B5CB92 /* RadioButton-Unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = A2521AC71B2B1C9300B5CB92 /* RadioButton-Unselected.png */; };
+		A2BFDE631B2B17C7005491EC /* RadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BFDE601B2B17C7005491EC /* RadioButton.m */; };
+		A2BFDE641B2B17C7005491EC /* RadioGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BFDE621B2B17C7005491EC /* RadioGroup.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,12 @@
 		A239B76E1B29D91A00F1DD94 /* RadioButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A239B7731B29D91A00F1DD94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A239B7741B29D91A00F1DD94 /* RadioButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadioButtonTests.m; sourceTree = "<group>"; };
+		A2521AC61B2B1C9300B5CB92 /* RadioButton-Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RadioButton-Selected.png"; sourceTree = "<group>"; };
+		A2521AC71B2B1C9300B5CB92 /* RadioButton-Unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RadioButton-Unselected.png"; sourceTree = "<group>"; };
+		A2BFDE5F1B2B17C7005491EC /* RadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioButton.h; sourceTree = "<group>"; };
+		A2BFDE601B2B17C7005491EC /* RadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioButton.m; sourceTree = "<group>"; };
+		A2BFDE611B2B17C7005491EC /* RadioGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioGroup.h; sourceTree = "<group>"; };
+		A2BFDE621B2B17C7005491EC /* RadioGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioGroup.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +91,12 @@
 		A239B7571B29D91A00F1DD94 /* RadioButton */ = {
 			isa = PBXGroup;
 			children = (
+				A2521AC61B2B1C9300B5CB92 /* RadioButton-Selected.png */,
+				A2521AC71B2B1C9300B5CB92 /* RadioButton-Unselected.png */,
+				A2BFDE5F1B2B17C7005491EC /* RadioButton.h */,
+				A2BFDE601B2B17C7005491EC /* RadioButton.m */,
+				A2BFDE611B2B17C7005491EC /* RadioGroup.h */,
+				A2BFDE621B2B17C7005491EC /* RadioGroup.m */,
 				A239B75C1B29D91A00F1DD94 /* AppDelegate.h */,
 				A239B75D1B29D91A00F1DD94 /* AppDelegate.m */,
 				A239B75F1B29D91A00F1DD94 /* ViewController.h */,
@@ -199,6 +215,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2521AC91B2B1C9300B5CB92 /* RadioButton-Unselected.png in Resources */,
+				A2521AC81B2B1C9300B5CB92 /* RadioButton-Selected.png in Resources */,
 				A239B7641B29D91A00F1DD94 /* Main.storyboard in Resources */,
 				A239B7691B29D91A00F1DD94 /* LaunchScreen.xib in Resources */,
 				A239B7661B29D91A00F1DD94 /* Images.xcassets in Resources */,
@@ -222,6 +240,8 @@
 				A239B7611B29D91A00F1DD94 /* ViewController.m in Sources */,
 				A239B75E1B29D91A00F1DD94 /* AppDelegate.m in Sources */,
 				A239B75B1B29D91A00F1DD94 /* main.m in Sources */,
+				A2BFDE631B2B17C7005491EC /* RadioButton.m in Sources */,
+				A2BFDE641B2B17C7005491EC /* RadioGroup.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +436,7 @@
 				A239B77A1B29D91A00F1DD94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A239B77B1B29D91A00F1DD94 /* Build configuration list for PBXNativeTarget "RadioButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +445,7 @@
 				A239B77D1B29D91A00F1DD94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
